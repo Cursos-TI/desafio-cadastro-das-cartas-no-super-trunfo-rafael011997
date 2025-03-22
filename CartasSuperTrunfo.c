@@ -1,22 +1,39 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    char ncarta = 1;                                               
+    char estado = 'A';                                   
+    char carta[50] = "A01";                               
+    char cidade[20] = "Niterói";                         
+    int populacao = 749;                                  
+    float area = 133.757;                                
+    float pib = 128.333;                                 
+    int turismo = 8;                                     
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Carta: %i\n", ncarta);
+    printf("Estado: %c\nCódigo: %s\n", estado, carta);
+    printf("Nome da Cidade: %s\n", cidade);
+    printf("Populacão: 481.%i\nÁrea: %.3fKm²\n", populacao, area);
+    printf("PIB: R$%.3f bilhões de reais\nNúmero de Pontos Turístico: %i", pib, turismo);
 
-    return 0;
+    printf("\n");
+
+    char Ncarta = 2;
+    char Estado = 'B';
+    char Carta[40] = "B02";
+    char Cidade[50] = "Macaé";
+    int Populacao = 138;
+    float Area = 1.216;
+    float Pib = 66.684;
+    int Turismo = 10;
+
+    printf("\n");
+    printf("Carta: %i\n", Ncarta);
+    printf("Estado: %c\nCódigo: %s\n", Estado, Carta);
+    printf("Nome da Cidade: %s\n", Cidade);
+    printf("Populacão: 264.%i\nÁrea: %.3fKm²\n", Populacao, Area);
+    printf("PIB: R$%.3f bilhões de reais\nNúmero de Pontos Turístico: %i", Pib, Turismo);
+   
+   return 0;
 }
