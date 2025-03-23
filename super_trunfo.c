@@ -72,7 +72,7 @@ int main(){
    // printf("Super Poder: carta 1 Venceu(%u)\n", resultado7);
 
    printf ("Populacao: carta %i venceu (%u)\n", (ncarta) , (populacao > Populacao));
-   printf ("Area: carta %i venceu (%u)\n", (ncarta) , (area > Area));
+   printf ("Área: carta %i venceu (%u)\n", (ncarta) , (area > Area));
    printf ("PIB: carta %i venceu (%u)\n", (ncarta) , (pib > Pib));
    printf ("Ponto Turistico: carta %i venceu (%u)\n", (Ncarta) , (turismo > Turismo));
    printf ("Densidade Populacional: carta %i venceu (%u)\n", (ncarta) , (media < Media));
