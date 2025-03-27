@@ -1,4 +1,4 @@
-#include <stdint.h>
+#include <stdio.h>
 
 int main(){
     char Estado [10], estado2[50];
